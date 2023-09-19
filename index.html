@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de Imagem - OPQ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Editor Imagem - OPQ</h1>
+    <p>Feito por <a href="https://twitter.com/victorbalino" >@victorbalino</a></p>
+    <input type="file" id="imageInput" accept="image/*">
+    <canvas id="canvas"></canvas>
+    <input type="range" id="opacitySlider" min="0" max="1" step="0.01" value="1">
+    <p>Opacidade - 0 a 100</p>
+    <button id="downloadButton">Baixar Imagem</button>
+    <script src="script.js"></script>
+</body>
+</html>
